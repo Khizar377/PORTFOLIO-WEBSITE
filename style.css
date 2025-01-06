@@ -185,6 +185,10 @@ span {
     transition: 0.3s ease-in-out;
 }
 
+.btn a {
+    color: black;
+}
+
 .btn:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px #ea580c , 0 0 50px #ea580c;
@@ -317,13 +321,13 @@ span {
     font-size: 8rem;
 }
 
-/* .projects {
+.projects {
     background-color: #101010;
-} */
+}
 
-/* .project-box {
+.project-box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     place-items: center;
     gap: 3rem;
     row-gap: 5rem;
@@ -335,7 +339,38 @@ span {
     align-items: center;
     justify-content: center;
     text-align: center;
-} */
+    background-color: #080808;
+    border: 2px solid #ea580c;
+    border-radius: 3rem;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 5px #ea580c;
+    transition: 0.3s ease-in-out;
+} 
+
+.project-card:hover {
+    box-shadow: 0 0 5px #ea580c , 0 0 50px #ea580c;
+    transform: scale(1.02);
+}
+
+.project-card img {
+    width: 300px;
+    height: 200px;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    color: white;
+    font-size: 3rem;
+}
+
+.project-card p {
+    color: white;
+    font-size: 1.8rem;
+}
 
 .Contact {
     background-color: #101010;
